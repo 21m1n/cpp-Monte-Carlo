@@ -44,5 +44,6 @@
 - [ ] `myEuroOptionBarrier.h`: header file for `myEuroOptionBarrier.cpp`
 - [ ] `functions.cpp`: contains the functions used in `myEuroOptionBarrier.cpp`
 - [ ] `functions.h`: the header file for `functioins.cpp` 
-- [ ] `Random1.cpp`: generates a random value from normal distribution via Box Muller approach 
-- [ ] `Random1.h`: the header file for `Random1.h`
+- [x] `Random1.cpp`: generates a random value from normal distribution via Box Muller approach 
+- [x] `Random1.h`: the header file for `Random1.h`
+- [ ] Bonus: `squareRoot` function
