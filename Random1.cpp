@@ -6,7 +6,7 @@
 // the code is provided by Professor Paweł Sakowski
 // Assistant Professor at University of Warsaw
 
-double getOneGaussianByBoxMuller(){
+double getOneGaussianByBoxMueller(){
     double result;
 
     double x;

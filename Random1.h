@@ -2,6 +2,6 @@
 #define RANDOM1_H
 
 // declarations of function 
-double getOneGaussianByBoxMuller();
+double getOneGaussianByBoxMueller();
 
 #endif
