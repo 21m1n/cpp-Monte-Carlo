@@ -7,12 +7,12 @@
 using namespace std;
 
 int main(){
-    int nInt = 126;
-    double Strike = 50.0;
-    double Spot = 45.0;
+    int nInt = 252;
+    double Strike = 150.0;
+    double Spot = 145.0;
     double Vol = 0.25;
-    double Rfr = 0.04;
-    double Expiry = 0.5;
+    double Rfr = 0.05;
+    double Expiry = 1.0;
     double Barrier = 0.0;
     int nReps = 100000;
     
@@ -27,6 +27,9 @@ int main(){
     double uno = myEuro.getEuroBarrierUNOPutPrice(nReps);
     cout << "the down-and-out put price is: "<< dno << endl;
     cout << "the up-and-out put price is: "<< uno << endl;
+
+    // calculate standard deviation of given choice
+
 
     // display option price 
     return 0;
