@@ -5,7 +5,7 @@
 
 ## Characteristics 
 - PUT option: $\texttt{Payoff} = \max[X - S_T, 0]$
-- UP and OUT: $\texttt{Payoff} = 0 if S_t > b$
+- UP and OUT: $\texttt{Payoff} = 0 \quad\textit{if}\quad S_t > b$
 - Barrier: the inclusion of barrier makes the European option a path dependent problem.
 
 ## Assumptions 
@@ -38,3 +38,11 @@
     - [ ] calculations of standard deviation of theorectical price approximations will be given extra points 
 - [ ] `your_surname.zip` and `your_surname.pdf`
 
+## TODO 
+- [ ] `myMonteCarloProject.cpp`: contains the main file
+- [ ] `myEuroOptionBarrier.cpp`: contains the 
+- [ ] `myEuroOptionBarrier.h`: header file for `myEuroOptionBarrier.cpp`
+- [ ] `functions.cpp`: contains the functions used in `myEuroOptionBarrier.cpp`
+- [ ] `functions.h`: the header file for `functioins.cpp` 
+- [ ] `Random1.cpp`: generates a random value from normal distribution via Box Muller approach 
+- [ ] `Random1.h`: the header file for `Random1.h`
