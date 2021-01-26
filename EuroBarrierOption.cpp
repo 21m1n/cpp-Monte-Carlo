@@ -3,7 +3,6 @@
 #include"Random1.h"
 #include"EuroBarrierOption.h"
 #include<algorithm>
-using namespace std;
 
 // definition of constructor 
 EuroBarrierOption::EuroBarrierOption(

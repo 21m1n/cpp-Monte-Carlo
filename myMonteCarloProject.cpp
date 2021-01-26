@@ -8,13 +8,13 @@ using namespace std;
 
 int main(){
     int nInt = 126;
-    double Strike = 50;
-    double Spot = 45;
+    double Strike = 50.0;
+    double Spot = 45.0;
     double Vol = 0.25;
     double Rfr = 0.04;
     double Expiry = 0.5;
-    double Barrier = 0;
-    int nReps = 10000;
+    double Barrier = 0.0;
+    int nReps = 100000;
     
     // set the seed
     srand( time(NULL) );
