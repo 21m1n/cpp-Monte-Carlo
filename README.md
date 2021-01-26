@@ -37,13 +37,13 @@
     - [ ] information about the results of the simulation, i.e. approximation of the theorectial price of your option 
     - [ ] calculations of standard deviation of theorectical price approximations will be given extra points 
 - [ ] `your_surname.zip` and `your_surname.pdf`
+- [ ] Honor code
 
 ## TODO 
-- [ ] `myMonteCarloProject.cpp`: contains the main file
-- [ ] `myEuroOptionBarrier.cpp`: contains the 
-- [ ] `myEuroOptionBarrier.h`: header file for `myEuroOptionBarrier.cpp`
-- [ ] `functions.cpp`: contains the functions used in `myEuroOptionBarrier.cpp`
-- [ ] `functions.h`: the header file for `functioins.cpp` 
+- [x] `myMonteCarloProject.cpp`: contains the main file
+- [x] `myEuroOptionBarrier.cpp`: contains the 
+- [x] `myEuroOptionBarrier.h`: header file for `myEuroOptionBarrier.cpp`
 - [x] `Random1.cpp`: generates a random value from normal distribution via Box Muller approach 
 - [x] `Random1.h`: the header file for `Random1.h`
-- [ ] Bonus: `squareRoot` function
+- [ ] Bonus: `standardDeviation` function
+- [ ] add comments 
