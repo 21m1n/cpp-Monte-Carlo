@@ -56,12 +56,6 @@ There are total five `cpp` files in the directory:
 
 ### The Algorithm
 
-The overall procedure is described in the following flowchart:
-```mermaid
-graph LR
-A(Draw a random sample from normal distribution) -->B(Generate an entire path) --> C(Compute the option price)
-```
-
 First, draw a random value $x$ from the normal distribution $x \sim N(0, 1)$
 
 ```c++
@@ -200,7 +194,7 @@ int main(){
 - When the `nReps = 1000000` and `barrier=180` the results: 12.5332, 12.5481, 12.549, 12.556, 12.5383
 
 
-<img src="img/cpp1.png" alt="" width="400"/>
+<img src="img/cpp2.png" alt="" width="500"/>
 
 ### Constant nReps and varying barrier 
 
@@ -215,7 +209,7 @@ Let `nReps = 1000000`:
 - `barrier = 500`: 13.1614
 - `barrier = 1000`: 13.1674
 
-<img src="img/cpp2.png" alt="" width="400"/>
+<img src="img/cpp1.png" alt="" width="500"/>
 
 From the above result, I have the following observations:
  
