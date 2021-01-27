@@ -217,15 +217,14 @@ From the above result, I have the following observations:
 2. As the barrier level increases, the price of the option also increases. However, when the barrier level reaches a certain value, its impact on the option price diminishes and the option price converges. This is also inline with my expectation as the higher the barrier level is, the less chance the path will reach it.
 
 ## Checklist
-- [ ] a zip file with `*.cpp` and `*.h` files only
-- [ ] a pdf file with a short report (2 - 6 pages)
+- [x] a zip file with `*.cpp` and `*.h` files only
+- [x] a pdf file with a short report (2 - 6 pages)
     - [x] objective of the project
     - [x] assumptions 
     - [x] description of the option to be priced and its characteristics 
     - [x] description and explanation of code elements
     - [x] information about the results of the simulation, i.e. approximation of the theorectial price of your option 
-    - ~~[ ] calculations of standard deviation of theorectical price approximations will be given extra points~~
-- [ ] `your_surname.zip` and `your_surname.pdf`
+- [x] `your_surname.zip` and `your_surname.pdf`
 - [x] Honor code
 
 ## TODO 
@@ -234,5 +233,4 @@ From the above result, I have the following observations:
 - [x] `myEuroOptionBarrier.h`: header file for `myEuroOptionBarrier.cpp`
 - [x] `Random1.cpp`: generates a random value from normal distribution via Box Muller approach 
 - [x] `Random1.h`: the header file for `Random1.h`
-- ~~[ ] Bonus: `standardDeviation` function~~
 - [x] add comments 
