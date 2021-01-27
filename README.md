@@ -200,7 +200,7 @@ int main(){
 - When the `nReps = 1000000` and `barrier=180` the results: 12.5332, 12.5481, 12.549, 12.556, 12.5383
 
 
-![cpp1.png](img/cpp1.png =400x)
+<img src="img/cpp1.png" alt="" width="400"/>
 
 ### Constant nReps and varying barrier 
 
@@ -215,7 +215,7 @@ Let `nReps = 1000000`:
 - `barrier = 500`: 13.1614
 - `barrier = 1000`: 13.1674
 
-![cpp2.png](img/cpp2.png =400x)
+<img src="img/cpp2.png" alt="" width="400"/>
 
 From the above result, I have the following observations:
  
