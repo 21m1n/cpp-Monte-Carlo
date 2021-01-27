@@ -1,3 +1,9 @@
+# C++ in Quantitative Finance part #1
+
+Submitted by: Zimin Luo `417124`
+
+The project requirement can be found [here](https://github.com/21m1n/cpp-Monte-Carlo/blob/main/Cpp%20project.pdf).
+
 ## Objective 
 
 The objective of this project is to use Monte Carlo simulations to approximate the price of the up-and-out put option with barrier. The effect of different barrier levels and number of path generated are also briefly analyzed. 
